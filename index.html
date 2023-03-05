@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Darko Mijatovic" />
+    <meta
+      name="description"
+      content="Lorem ipsum dolor sit amet, an ipsum dore dusino sinto. Ipsum
+    dolor amet lorem."
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Elephic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Titillium+Web:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#"
+        ><img class="logo" src="./img/header_logo.png" alt="Elephic logo"
+      /></a>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item nav__item--has-dropdown">
+            <a href="#" class="nav__link">About us</a>
+            <ul class="nav__dropdown">
+              <li class="nav__dropdown-item">
+                <a href="#" class="nav__dropdown-link">Our story</a>
+              </li>
+              <li class="nav__dropdown-item">
+                <a href="#" class="nav__dropdown-link">Our history</a>
+              </li>
+              <li class="nav__dropdown-item">
+                <a href="#" class="nav__dropdown-link">Board of directors</a>
+              </li>
+              <li class="nav__dropdown-item">
+                <a href="#" class="nav__dropdown-link">Locations</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item nav__item--has-dropdown">
+            <a href="#" class="nav__link">Services</a>
+            <ul class="nav__dropdown">
+              <li class="nav__dropdown-item">
+                <a href="#" class="nav__dropdown-link">Design</a>
+              </li>
+              <li class="nav__dropdown-item">
+                <a href="#" class="nav__dropdown-link">Development</a>
+              </li>
+              <li class="nav__dropdown-item">
+                <a href="#" class="nav__dropdown-link">Project management</a>
+              </li>
+              <li class="nav__dropdown-item">
+                <a href="#" class="nav__dropdown-link">Testing & QA</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="#slider-section" class="nav__link">Our Work</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__menu-btn">Contact Us</button>
+    </header>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <div class="hero-container">
+          <div class="hero-box hero-box--primary">
+            <div class="hero-box__content hero-box__content--first">
+              <h1 class="hero-box__title">
+                <span class="hero-box__title-highlight">Our goal</span>
+                Better products for your users
+              </h1>
+              <p class="hero-box__description">
+                We help our clients realize theur most important business goals.
+              </p>
+              <button class="hero-box__button">Get in touch</button>
+            </div>
+            <div>
+              <img
+                class="hero-box__image"
+                src="./img/header_photo.png"
+                alt="a woman poses against a wall"
+              />
+              <img
+                class="hero-box__image--tablet"
+                src="./img/header_photo_tablet.jpg"
+                alt="a woman poses against a wall"
+              />
+            </div>
+          </div>
+          <div class="hero-box hero-box--secondary">
+            <div class="hero-box__content">
+              <h1 class="hero-box__title">
+                <span class="hero-box__title-highlight">We help with</span>
+                Building better solutions
+              </h1>
+              <button class="hero-box__button">Our services</button>
+            </div>
+            <div class="hero-box__cards">
+              <div class="card">
+                <img
+                  class="card__icon"
+                  src="./img/header_icons/design_icon.png"
+                  alt="pencil and ruler icon"
+                />
+                <h3 class="card__title">Design</h3>
+                <p class="card__text">
+                  Lorem ipsum dolor sit amet, an ipsum dore dusino sinto. Ipsum
+                  dolor amet lorem.
+                </p>
+                <a class="card__link" href="#"
+                  >Read more <span class="card__link--arrow">&#8594;</span></a
+                >
+              </div>
+              <div class="card">
+                <img
+                  class="card__icon"
+                  src="./img/header_icons/development_icon.png"
+                  alt="keyboard icon"
+                />
+                <h3 class="card__title">Development</h3>
+                <p class="card__text">
+                  Lorem ipsum dolor sit amet, an ipsum dore dusino sinto. Ipsum
+                  dolor amet lorem.
+                </p>
+                <a class="card__link" href="#"
+                  >Read more <span class="card__link--arrow">&#8594;</span></a
+                >
+              </div>
+              <div class="card">
+                <img
+                  class="card__icon"
+                  src="./img/header_icons/menagement_icon.png"
+                  alt="calendar icon"
+                />
+                <h3 class="card__title">Project management</h3>
+                <p class="card__text">
+                  Lorem ipsum dolor sit amet, an ipsum dore dusino sinto. Ipsum
+                  dolor amet lorem.
+                </p>
+                <a class="card__link" href="#"
+                  >Read more <span class="card__link--arrow">&#8594;</span></a
+                >
+              </div>
+              <div class="card">
+                <img
+                  class="card__icon"
+                  src="./img/header_icons/testing_icon.png"
+                  alt="bug icon"
+                />
+                <h3 class="card__title">Testing & QA</h3>
+                <p class="card__text">
+                  Lorem ipsum dolor sit amet, an ipsum dore dusino sinto. Ipsum
+                  dolor amet lorem.
+                </p>
+                <a class="card__link" href="#"
+                  >Read more <span class="card__link--arrow">&#8594;</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured" class="featured-section">
+        <div class="featured-container">
+          <div class="featured-box featured-box--primary">
+            <img
+              class="featured-box__image"
+              src="./img/design_solution_photo.png"
+              alt="a building with a saronic door design"
+            />
+            <img
+              class="featured-box__image--header"
+              src="./img/design_solution_photo_header.png"
+              alt="a building with a saronic door design"
+            />
+            <div class="featured-box__content featured-box__content--right">
+              <h3 class="featured-box__title">
+                Design solutions to improve products
+              </h3>
+              <p class="featured-box__description">
+                We help our clients make realize their most important business
+                goals. We help our clients make realize their most important
+                business goals. business goals. We help our clients make realize
+                their most important business.
+              </p>
+              <button class="featured-box__button">Know more</button>
+            </div>
+          </div>
+          <div class="featured-box featured-box--secondary">
+            <div class="featured-box__content featured-box__content--left">
+              <h3 class="featured-box__title">
+                Develop powerful apps for your business
+              </h3>
+              <p class="featured-box__description">
+                We help our clients make realize their most important business
+                goals. We help our clients make realize their most important
+                business goals. business goals. We help our clients make realize
+                their most important business.
+              </p>
+              <button class="featured-box__button">Know more</button>
+            </div>
+            <img
+              class="featured-box__image"
+              src="./img/computer_photo.png"
+              alt="modern notebook which is pluged in"
+            />
+            <img
+              class="featured-box__image--header"
+              src="./img/computer_photo_header.png"
+              alt="modern notebook which is pluged in"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="slider-section" class="slider">
+        <div class="slider-box">
+          <div class="slider-box__content">
+            <h1 class="slider__title">
+              <span class="slider__title-highlight">Portfolio</span>
+              Projects we love
+            </h1>
+            <div class="slider__buttons">
+              <button class="slider__button slider__button--prev">
+                <img
+                  class="arrow-icon"
+                  src="./img/slider/arrow_left.svg"
+                  alt="arrow for going left"
+                />
+              </button>
+              <button class="slider__button slider__button--next">
+                <img
+                  class="arrow-icon"
+                  src="./img/slider/arrow_right.svg"
+                  alt="arrow for going right"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="slider__container">
+            <img src="./img/slider/image_1.png" alt="" />
+            <img src="./img/slider/image_2.png" alt="" />
+            <img src="./img/slider/image_3.png" alt="" />
+            <img src="./img/slider/image_4.png" alt="" />
+            <img src="./img/slider/image_1.png" alt="" />
+            <img src="./img/slider/image_2.png" alt="" />
+            <img src="./img/slider/image_3.png" alt="" />
+            <img src="./img/slider/image_4.png" alt="" />
+            <img src="./img/slider/image_1.png" alt="" />
+            <img src="./img/slider/image_2.png" alt="" />
+            <img src="./img/slider/image_3.png" alt="" />
+            <img src="./img/slider/image_4.png" alt="" />
+          </div>
+          <button class="slider__button--all">View all</button>
+        </div>
+      </section>
+
+      <section id="faq-section" class="faq">
+        <div class="card__text">
+          <h3 class="faq__title">
+            <span class="faq__title-highlight">FQA</span>
+            Have question?
+          </h3>
+          <div class="accordion">
+            <div class="accordion__item">
+              <button class="accordion__question">
+                Why did you create Elephic?
+              </button>
+              <div class="accordion__collapse collapse">
+                <div class="accordion__content">
+                  <p class="accordion__content-text">
+                    As freelance designers, we found our office being wherever
+                    our laptop was. We wanted an accesible whiteboard to save
+                    time and paper and created the Elephic!
+                  </p>
+                  <p class="accordion__content-text">
+                    Proin dapibus dignissim erat et fermentum. Duis odio eros,
+                    lobortis id suscipit eget, efficitur ut dolor. Phasellus
+                    convallis semper lacus, sit amet molestie libero. Duis
+                    tempus bibendum nisi, vulputate semper erat malesuada sed.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus convallis semper lacus, sit amet molestie libero.
+                    Duis tempus bibendum nisi, vulputate semper erat malesuada
+                    sed. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <button class="accordion__question">Is it hard to erase?</button>
+              <div class="accordion__collapse collapse">
+                <div class="accordion__content">
+                  <p class="accordion__content-text">
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <button class="accordion__question">
+                What’s special about Elephic?
+              </button>
+              <div class="accordion__collapse collapse">
+                <div class="accordion__content">
+                  <p class="accordion__content-text">
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <button class="accordion__question">
+                How do I use Elephic to sell stuff?
+              </button>
+              <div class="accordion__collapse collapse">
+                <div class="accordion__content">
+                  <p class="accordion__content-text">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <button class="accordion__question">
+                How much does Elephic cost?
+              </button>
+              <div class="accordion__collapse collapse">
+                <div class="accordion__content">
+                  <p class="accordion__content-text">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining
+                    essentially unchanged.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <button class="accordion__question">
+                If I go with Elephic, can I still sell elsewhere?
+              </button>
+              <div class="accordion__collapse collapse">
+                <div class="accordion__content">
+                  <p class="accordion__content-text">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form, by injected humour, or randomised words which don't
+                    look even slightly believable.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <button class="accordion__question">
+                How does this work with Amazon?
+              </button>
+              <div class="accordion__collapse collapse">
+                <div class="accordion__content">
+                  <p class="accordion__content-text">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__logo">
+          <a href="#"
+            ><img
+              class="footer__logo-img"
+              src="./img/footer_logo.png"
+              alt="Elephic logo"
+          /></a>
+        </div>
+        <div class="footer-box">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item"><a href="#">Cookies</a></li>
+            <li class="footer__nav-item"><a href="#">Sitemap</a></li>
+            <li class="footer__nav-item"><a href="#">Privacy policy</a></li>
+          </ul>
+          <div class="footer__social-icons">
+            <a href="#" class="footer__social-icon"
+              ><img src="./img/footer_icons/twitter.svg" alt="twitter icon" />
+            </a>
+            <a href="#" class="footer__social-icon"
+              ><img src="./img/footer_icons/linkedin.svg" alt="linkedIn icon" />
+            </a>
+            <a href="#" class="footer__social-icon"
+              ><img src="./img/footer_icons/facebook.svg" alt="facebook icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p class="footer__copyright-text">
+          2022 &copy; Elephic. Registered in Serbia. Registered Office:
+          Novosadskog sajma 2, Novi Sad.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
